@@ -1,0 +1,22 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Image in Database</title>
+    <link rel="stylesheet" href="EditUpdate.css">
+
+
+</head>
+<body>
+    <h1>Update Image in Gallery</h1>
+    <form action="SpecialeventUpdate.php" method="POST" enctype="multipart/form-data">
+        <label for="id">Image ID:</label>
+        <input type="text" name="id" id="id" required>
+        <label for="image">Image File:</label>
+        <input type="file" name="image" id="image" accept="image/*" required>
+        <br>
+        <button type="submit" name="update">Update Image</button>
+    </form>
+</body>
+</html>

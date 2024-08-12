@@ -1,0 +1,64 @@
+body{
+    
+    background-image: url("miles-burke-idhx-MOCDSk-unsplash.jpg");
+    background-size:cover;
+    margin: 0;
+    padding: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+}
+.navigation{
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0);
+    margin-top: -5px;
+}
+.navigation a{
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 20px   16px;
+    font-size: 14px;
+    width: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navigation a:hover{
+    background: red;
+    color:#fff;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item {
+    flex-basis: 48%;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #ddd;
+}

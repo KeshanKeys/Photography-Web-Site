@@ -1,0 +1,79 @@
+body, h1, h2, h3, p, ul, li, form, label, input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    h1{
+        text-align: center;
+    }
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:goldenrod;
+    color:black;
+    margin: 0;
+    font-weight: bold;
+    
+}
+
+header {
+    background-color: black;
+    color:black;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.navigation{
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0);
+    margin-top: -5px;
+   
+}
+.navigation a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px   16px;
+    font-size: 14px;
+    width: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navigation a:hover{
+    background: red;
+    color:#fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    background-color:grey;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+}
+
+label, input, select, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color:blue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:black;
+}

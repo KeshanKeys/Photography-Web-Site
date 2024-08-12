@@ -1,0 +1,41 @@
+<html>
+<head>
+    <link rel="stylesheet" href="LoginForm.css">
+    <title>Login - Malcolm Lismore Photography</title>
+</head>
+<body>
+    <div class="navigation">
+        <a href="Home.html">Home </a>
+        <a href="About.html">About </a>
+        <a href="Contact.html">Contact </a>
+        <a href="Gallery.html">Gallery </a>
+        <a href="Booking.html">Booking </a> 
+        <a href="Login.html">Login </a>
+        <a href="Signup.html">Signup</a>
+        <a href="Inquiry.html">Inquiry</a>
+        </div>
+    <div class="login-container">
+        <h1> Admin Login</h1>
+        <form class="login-form" method="POST" onsubmit="return auth();">
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script>
+        function auth(){
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if (username == "AdminUser" && password == "1234useradmin"){
+                alert("Login Successfully");
+                window.location.href = "admin.html";
+                return false; 
+            }
+            else {
+                alert("Invalid Information");
+                return false;
+            }
+        }   
+    </script>
+</body>
+</html>
